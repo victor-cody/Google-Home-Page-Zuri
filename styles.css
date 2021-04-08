@@ -11,6 +11,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	/* background-color: #fff; */
+	background: linear-gradient(to left, rgba(0, 0, 0, 0.781) 0.198, rgba(0, 0, 0, 0.815));
 	background-image: url(img/bg.jpg);
 	background-size: 100%;
 	background-position: center;
@@ -107,6 +108,9 @@ button {
 	align-items: center;
 }
 
+#search-bar div:hover {
+	cursor: pointer;
+}
 
 #search{
 	width: 90%;
